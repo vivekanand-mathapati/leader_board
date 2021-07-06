@@ -21,12 +21,12 @@ Note: Upsert is Update or Insert
 The input contains the command followed by the arguments.
 
 Example Input
-UPSERT_USER, Nikhil, India, nikhil@flipkart.com
-UPSERT_USER, Rahul, India, rahul@flipkart.com
-UPSERT_SCORE, rahul@flipkart.com, 1
-UPSERT_SCORE, nikhil@flipkart.com, 5
-UPSERT_USER, Karan, Argentina, karan@flipkart.com
-UPSERT_SCORE, karan@flipkart.com, 1
+UPSERT_USER, Nikhil, India, nikhil@abc.com
+UPSERT_USER, Rahul, India, rahul@abc.com
+UPSERT_SCORE, rahul@abc.com, 1
+UPSERT_SCORE, nikhil@abc.com, 5
+UPSERT_USER, Karan, Argentina, karan@abc.com
+UPSERT_SCORE, karan@abc.com, 1
 GET_TOP, 3
 GET_USERS_WITH_SCORE, 1
 GET_TOP, 2, India
